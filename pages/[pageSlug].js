@@ -1,9 +1,8 @@
 import Head from 'next/head';
 import { Component } from 'react';
-// import { isThisSecond, parseISO } from 'date-fns';
-import {getPostSlugs, getContents} from '../lib/usemd';
+import {getPageSlugs, getContents} from '../lib/usemd';
 
-export default class Post extends Component {
+export default class Page extends Component {
   render() {
     return (
       <>
@@ -12,10 +11,6 @@ export default class Post extends Component {
         </Head>
         <article>
           <h1>{this.props.title}</h1>
-          <div className="post-info">
-            <span>by {this.props.author} </span>
-            <span>on {this.props.dateISO}</span>
-          </div>
           <div className="post-content" dangerouslySetInnerHTML={{__html: (this.props.content)}}>
           </div>
         </article>
@@ -25,7 +20,7 @@ export default class Post extends Component {
 }
 
 export async function getStaticPaths() {
-  const paths = getPostSlugs();
+  const paths = getPageSlugs();
   return {
     paths,
     fallback: false
@@ -33,13 +28,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getContents(params.postSlug[1], 'post');
+  const post = getContents(params.pageSlug, 'page');
   return {
     props: {
       title: post.yaml.title,
-      author: post.yaml.author,
-      dateISO: post.yaml.date.toISOString(),
-      category: post.yaml.category,
       content: post.content
     }
   }
