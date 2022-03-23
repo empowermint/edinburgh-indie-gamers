@@ -2,9 +2,22 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b2da8adf-e497-458d-92b9-f44639617996/deploy-status)](https://app.netlify.com/sites/edinburgh-indie-gamers/deploys)
 
-## Deploy
+## Deployment
 
-You can view the live Edinburgh Indie Gamers website at [https://edinburgh-indie-gamers.netlify.app/](https://edinburgh-indie-gamers.netlify.app/).
+The live Edinburgh Indie Gamers website is deployed at [https://edinburgh-indie-gamers.netlify.app/](https://edinburgh-indie-gamers.netlify.app/).
+
+<!-- ### Deploy Locally
+
+You can run and extend the site locally using NPN:
+
+```bash
+# Clone repository from GitHub
+
+# Install dependencies
+
+# Start development server
+
+``` -->
 
 ## Guide for Contributors
 
@@ -16,20 +29,19 @@ The website is built using:
 
 - [Next.js](https://nextjs.org/) v12.1
 - [React](https://reactjs.org/) v17.0
-- [Frontmatter](https://github.com/hmsk/frontmatter-markdown-loader) v3.6
-- [Babel](https://babeljs.io/) v7.16
+- [Micromark](https://github.com/micromark/micromark/blob/main/readme.md) v3.0
+- [Gray Matter](https://github.com/jonschlinkert/gray-matter) v4.0
 - [Netlify CMS](https://www.netlifycms.org/) v2.0
-- [Jest](https://jestjs.io/) v27.5
 
 ## Project Roadmap and Progress
 
 - ~~functional dev environment, production and deploy pipeline~~
 - ~~visual design~~
 - ~~site map and draft content~~
+- implement blogging
 - set up custom site structure
 - implement site design
 - implement basic calendar functionality
-- implement blogging
 - grant contributor access
 - redirect URL
 - WCAG AA implementation
