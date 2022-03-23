@@ -40,6 +40,7 @@ export async function getStaticProps({ params }) {
   const post = getContents(params.postSlug[1], 'post');
   return {
     props: {
+      slug: params.postSlug.join('/'),
       title: post.yaml.title,
       author: post.yaml.author,
       dateISO: post.yaml.date.toISOString(),
