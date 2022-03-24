@@ -1,0 +1,5 @@
+* :focus,
+* :focus-visible {
+  outline: max(.25em, 3px) solid currentColor;
+  outline-offset: .25em;
+}

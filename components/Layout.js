@@ -13,7 +13,7 @@ export default function Layout({ title, children }) {
       <main>{children}</main>
       <footer>
         <small>
-          This website was designed and coded with {'<'}3 by <a href="http://github.com/empowermint/">James T. Harding</a>
+          This website was designed and coded with {'<3'} by <a href="http://github.com/empowermint/">James T. Harding</a>
         </small>
       </footer>
     </>
