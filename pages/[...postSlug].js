@@ -3,6 +3,7 @@ import { Component } from 'react';
 // import { isThisSecond, parseISO } from 'date-fns';
 import {getPostSlugs, getContents} from '../lib/usemd';
 import Menu from '../components/Menu';
+import { displayDate } from '../lib/dates';
 
 export default class Post extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class Post extends Component {
           <h1>{this.props.title}</h1>
           <div className="post-info">
             <span>by {this.props.author} </span>
-            <span>on {this.props.dateISO}</span>
+            <span>on {displayDate(this.props.date)}</span>
           </div>
           <div className="post-content" dangerouslySetInnerHTML={{__html: (this.props.content)}}>
           </div>
@@ -43,7 +44,7 @@ export async function getStaticProps({ params }) {
       slug: params.postSlug.join('/'),
       title: post.yaml.title,
       author: post.yaml.author,
-      dateISO: post.yaml.date.toISOString(),
+      date: post.yaml.date.toJSON(),
       category: post.yaml.category,
       content: post.content
     }
