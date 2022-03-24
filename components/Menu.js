@@ -1,13 +1,12 @@
 import { Component } from 'react';
 import Link from 'next/link'
-// import { getPageSlugs } from '../lib/usemd';
 
 export default class Menu extends Component {
   render() {
     return(
       <>
         <h3>Edinburgh Indie Gamers</h3>
-        <ul>
+        <ul className="main-menu">
           <li>
             <Link href="/">
               <a>Home</a>
@@ -33,12 +32,3 @@ export default class Menu extends Component {
     )
   }
 }
-
-// export function getStaticProps() {
-//   const pages = getPageSlugs();
-//   return {
-//     props: {
-//       msg: 'hello world'
-//     }
-//   }
-// }

@@ -1,21 +1,16 @@
 import { Component } from 'react';
-import Head from 'next/head';
-import Menu from '../components/Menu';
+import Layout from '../components/Layout';
 
 export default class Home extends Component {
   render() {
     return (
       <>
-        <Head>
-          <title>Edinburgh Indie Gamers - Home</title>
-        </Head>
-        <header>
-          <Menu />
-          <h1>Edinburgh Indie Gamers</h1>
-        </header>
-        <main>
+        <Layout title="Edinburgh Indie Gamers - Home">
+          <div className="hero">
+            <h1>Edinburgh Indie Gamers</h1>
+          </div>
           <p>Content goes here</p>
-        </main>
+        </Layout>
       </>
     )
   }

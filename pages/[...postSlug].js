@@ -2,19 +2,13 @@ import Head from 'next/head';
 import { Component } from 'react';
 // import { isThisSecond, parseISO } from 'date-fns';
 import {getPostSlugs, getContents} from '../lib/usemd';
-import Menu from '../components/Menu';
+import Layout from '../components/Layout';
 import { displayDate } from '../lib/dates';
 
 export default class Post extends Component {
   render() {
     return (
-      <>
-        <Head>
-          <title>{this.props.title}</title>
-        </Head>
-        <header>
-          <Menu />
-        </header>
+      <Layout title={this.props.title}>
         <article>
           <h1>{this.props.title}</h1>
           <div className="post-info">
@@ -24,7 +18,7 @@ export default class Post extends Component {
           <div className="post-content" dangerouslySetInnerHTML={{__html: (this.props.content)}}>
           </div>
         </article>
-      </>
+      </Layout>
     )
   }
 }
