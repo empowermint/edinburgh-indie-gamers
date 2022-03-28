@@ -8,3 +8,9 @@
   --clr-primary: hsl(0 0% 5%);
   --clr-bg: hsl(0 0% 98%);
 }
+
+.hidden {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}

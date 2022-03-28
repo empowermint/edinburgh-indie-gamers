@@ -8,6 +8,7 @@ export default function Layout({ title, children }) {
         <title>{title}</title>
       </Head>
       <header className="header">
+        <h3>Edinburgh Indie Gamers</h3>
         <Menu />
       </header>
       <main>{children}</main>

@@ -12,3 +12,78 @@ section {
   min-height: 100vh;
 }
 
+// HEADER
+
+header {
+  display: flex;
+}
+
+header h3 {
+  margin: 0;
+  font-family: marvin, var(--font-stack);
+}
+
+// NAVIGATION - MOBILE
+
+@media screen and (max-width: 700px) {
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--clr-brand);
+    color: var(--clr-bg);
+    font-size: calc(1rem + 2vw);
+    transform: translateX(100%);
+    transition: .5s ease-out;
+  }
+
+  nav.menu-open {
+    transform: translateX(0%);
+  }
+
+  header nav ul {
+    block-size: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    padding: 10vw;
+    gap: max(10vw, 3.5ch);
+  }
+
+  #menu__hamburger {
+    font-family: grenadine-mvb, var(--font-stack);
+    font-size: calc(1rem + 4vw);
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 5vw;
+    z-index: 100;
+  }
+
+  #menu__hamburger-close {
+    color: var(--clr-bg);
+    display: none;
+  }
+}
+
+// NAVIGATION - DESKTOP
+
+@media screen and (min-width: 700px) {
+  nav {
+    flex-grow: 1;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 2.5ch;
+  }
+
+  #menu__hamburger {
+    display: none;
+  }
+}
