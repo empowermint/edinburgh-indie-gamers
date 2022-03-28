@@ -1,0 +1,14 @@
+#__next {
+  min-height: 100vh;
+  padding: max(1rem, 2.5vw);
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: max(1rem, 5vw);
+}
+
+section {
+  min-height: 100vh;
+}
+
