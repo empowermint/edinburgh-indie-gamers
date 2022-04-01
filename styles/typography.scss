@@ -8,6 +8,7 @@
 
 :is(p, li, small) {
   font-family: grenadine-mvb, var(--font-stack);
+  font-weight: 300;
 }
 
 :is(h2, h3, h4, h5, h6, small) {
@@ -68,4 +69,18 @@ main ul li::before {
 
 main ol li {
   list-style-type: decimal;
+}
+
+// BOLD, ITALICS, UNDERLINE
+
+i, em {
+  font-style: italic;
+}
+
+b, strong {
+  font-weight: 500;
+}
+
+u {
+  border-bottom: solid 1px var(--clr-primary);
 }
