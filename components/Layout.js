@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Menu from './Menu';
+import Link from 'next/link';
 
 export default function Layout({ title, children }) {
   return (
@@ -8,7 +9,9 @@ export default function Layout({ title, children }) {
         <title>{title}</title>
       </Head>
       <header className="header">
-        <h3>Edinburgh Indie Gamers</h3>
+        <Link href="./">
+          <a><h3>Edinburgh Indie Gamers</h3></a>
+        </Link>
         <Menu />
       </header>
       <main>{children}</main>
