@@ -57,3 +57,15 @@ p + p,
 :is(h1, h2, h3, h4, h5, h6) {
   margin-block-start: 1.4em;
 }
+
+// LISTS
+
+main ul li::before {
+  content: "\2730";
+  color: var(--clr-brand);
+  margin-inline: .6em;
+}
+
+main ol li {
+  list-style-type: decimal;
+}
