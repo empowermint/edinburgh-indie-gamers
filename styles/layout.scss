@@ -98,6 +98,37 @@ header h3 {
   }
 }
 
+// HERO
+
+.hero {
+  background-color: var(--clr-brand);
+  padding: clamp(.5rem, 5vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.hero h1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.hero__title {
+  font-family: marvin, var(--font-stack);
+  font-size: 25px;
+  fill: var(--clr-bg);
+  stroke: var(--clr-primary);
+  stroke-width: .75px;
+}
+
+.hero svg {
+  width: 100%;
+}
+
 // FOOTER
 
 footer {

@@ -8,7 +8,11 @@ export default class Home extends Component {
         <Layout title="Edinburgh Indie Gamers - Home">
           <div className="hero">
             <h1>Edinburgh Indie Gamers</h1>
-            <span>Independent since 1649</span>
+            <svg viewBox="0 0 187 45" xmlns="http://www.w3.org/2000/svg" rel="">
+              <text x="11%" y="45%" className="hero__title">Edinburgh</text>
+              <text y="95%" className="hero__title">Indie Gamers</text>
+            </svg>
+            {/* <span>Independent since 1649</span> */}
           </div>
           <section>
             <h2>Welcome</h2>
