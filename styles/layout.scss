@@ -1,3 +1,5 @@
+// MACRO LAYOUT
+
 body {
   background-color: var(--clr-brand);
   min-height: 100vh;
@@ -7,7 +9,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: max(1rem, 5vw);
+  gap: var(--pad-small);
   background-color: var(--clr-bg);
 }
 
@@ -24,13 +26,14 @@ main {
 
 section {
   min-height: 100vh;
+  padding: var(--pad-small);
 }
 
 // HEADER
 
 header {
   display: flex;
-  padding: calc(.3rem + 0.5vw);
+  margin-block-start: var(--pad-small);
 }
 
 header h3 {
@@ -107,7 +110,7 @@ header h3 {
 
 .hero {
   background-color: var(--clr-brand);
-  padding: clamp(.5rem, 5vw, 3rem);
+  padding: var(--pad-medium);
   display: flex;
   flex-direction: column;
   justify-content: center;

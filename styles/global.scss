@@ -7,6 +7,8 @@
   --clr-brand: #ff5700;
   --clr-primary: hsl(0 0% 5%);
   --clr-bg: hsl(0 0% 99%);
+  --pad-medium: clamp(.5rem, 5vw, 3rem);
+  --pad-small: clamp(.5rem, 2vw, 1rem)
 }
 
 .hidden {
