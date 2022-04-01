@@ -1,5 +1,6 @@
 body {
   background-color: var(--clr-brand);
+  min-height: 100vh;
 }
 
 #__next {
@@ -15,6 +16,10 @@ main,
 footer {
   width: min(90ch, 95vw);
   margin-inline: auto;
+}
+
+main {
+  flex-grow: 1;
 }
 
 section {
