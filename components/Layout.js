@@ -10,7 +10,7 @@ export default function Layout({ title, children }) {
       </Head>
       <header className="header">
         <Link href="./">
-          <a><h3>Edinburgh Indie Gamers</h3></a>
+          <a className="site-title"><h3>Edinburgh Indie Gamers</h3></a>
         </Link>
         <Menu />
       </header>

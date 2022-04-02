@@ -36,9 +36,18 @@ header {
   margin-block-start: var(--pad-small);
 }
 
-header h3 {
+.site-title > * {
   margin: 0;
+}
+
+.site-title {
   font-family: marvin, var(--font-stack);
+  background: var(--clr-bg);
+  border-bottom: none;
+}
+
+.site-title:hover {
+  color: var(--clr-brand);
 }
 
 // NAVIGATION - MOBILE
@@ -98,7 +107,11 @@ header h3 {
   header nav ul {
     display: flex;
     justify-content: end;
-    gap: 2.5ch;
+    gap: var(--pad-x-small);
+  }
+
+  header nav a {
+    padding-inline: var(--pad-x-small);
   }
 
   #menu__hamburger {

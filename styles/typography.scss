@@ -73,7 +73,7 @@ main ol li {
 
 // BOLD, ITALICS, UNDERLINE
 
-i, em {
+i, em, {
   font-style: italic;
 }
 
@@ -83,4 +83,26 @@ b, strong {
 
 u {
   border-bottom: solid 1px var(--clr-primary);
+}
+
+// TEXT LINKS
+
+a {
+  background: linear-gradient(white 0 50%, var(--clr-brand) 50%);
+  background-size: auto 3em;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-bottom: solid 2px var(--clr-brand);
+  transition: 150ms ease-out;
+}
+
+a:hover,
+a:focus {
+  background-position: bottom;
+}
+
+footer a {
+  background: linear-gradient(var(--clr-brand) 0 50%, var(--clr-bg) 50%);
+  background-size: auto 3em;
+  border-bottom: solid 2px var(--clr-bg);
 }

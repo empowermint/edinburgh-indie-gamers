@@ -8,7 +8,8 @@
   --clr-primary: hsl(0 0% 5%);
   --clr-bg: hsl(0 0% 99%);
   --pad-medium: clamp(.5rem, 5vw, 3rem);
-  --pad-small: clamp(.5rem, 2vw, 1rem)
+  --pad-small: clamp(.5rem, 2vw, 1rem);
+  --pad-x-small: clamp(.25rem, 1vw, .5rem);
 }
 
 .hidden {
