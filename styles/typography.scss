@@ -11,12 +11,12 @@
   font-weight: 300;
 }
 
-:is(h2, h3, h4, h5, h6, small) {
+:is(h3, h4, h5, h6, small) {
   font-family: captain-comic, var(--font-stack);
   letter-spacing: .03em;
 }
 
-h1 {
+h1, h2 {
   font-family: marvin, var(--font-stack);
 }
 
