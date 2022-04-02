@@ -27,27 +27,27 @@ h1 {
 }
 
 h1 {
-  font-size: calc(1rem + 2vw);
+  font-size: clamp(3rem, calc(1rem + 2vw), 6rem);
 }
 
 h2 {
-  font-size: calc(1rem + 1vw);
+  font-size: clamp(2.5rem, calc(1rem + 1.5vw), 5rem);
 }
 
 h3 {
-  font-size: calc(1rem + .5vw);
+  font-size: clamp(2rem, calc(1rem + .5vw), 4rem);
 }
 
 h4 {
-  font-size: calc(1rem + .3vw);
+  font-size: clamp(1.5rem, calc(1rem + .3vw), 3rem);
 }
 
 h5 {
-  font-size: calc(1rem + .2vw);
+  font-size: clamp(1.25rem, calc(1rem + .2vw), 2.5rem);
 }
 
 h6 {
-  font-size: calc(1rem + .1vw);
+  font-size: clamp(1rem, calc(1rem + .1vw), 2rem);
 }
 
 p + p,

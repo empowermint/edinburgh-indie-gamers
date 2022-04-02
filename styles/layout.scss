@@ -36,8 +36,9 @@ header {
   margin-block-start: var(--pad-small);
 }
 
-.site-title > * {
+.site-title h3 {
   margin: 0;
+  font-size: clamp(1rem, 3vw, 1.4rem);
 }
 
 .site-title {
