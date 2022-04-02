@@ -10,7 +10,7 @@ Participating in EIG constitutes acknowledgement and acceptance to abide by this
 
 Anyone who violates this Code of Conduct may be sanctioned or expelled from EIG spaces.
 
-## Edinburgh Indie Gamers Principles
+## Principles
 
 In accordance with our Code of Conduct, everyone who participates in Edinburgh Indie Gamers shall function within the following principles:
 
@@ -27,7 +27,7 @@ That safety doesn't end at the gaming table, or with formal safety tools. We ask
 Community members must be supportive and inclusive. They should think about the impact of their words, the privilege they hold, and the relative position of those they interact with. As a community we prioritise marginalised people’s safety over privileged people’s comfort and will make all reasonable efforts to be inclusive.
 Play Guidelines
 
-## Edinburgh Indie Gamers Guidelines
+## Guidelines
 
 In the course of exemplifying the Community Principles, all members of our community shall function within the following guidelines:
 
@@ -41,7 +41,7 @@ Clearly declare the concept, aim, tone, & subject matter (including clear conten
 
 Explain and incorporate some form of tools for safe play (e.g. X-Card, Lines & Veils, etc) into every game shared
 
-## Safety, Support and Inclusivity Tools
+## Tools
 
 Games organized through the Edinburgh Indie Gamers must use tools for safe, welcoming play. We recommend that all members read [the TTRPG Safety Toolkit curated by Kienna Shaw and Lauren Bryant-Monk.](https://drive.google.com/drive/folders/114jRmhzBpdqkAlhmveis0nmW73qkAZCj "Gaming safety resource")
 
