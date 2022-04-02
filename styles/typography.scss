@@ -23,7 +23,7 @@ h1 {
 // SIZING
 
 :root {
-  line-height: calc(1.5em + 1rem);
+  line-height: calc(1.5em + .6rem);
 }
 
 h1 {
@@ -51,7 +51,7 @@ h6 {
 }
 
 p {
-  line-height: 2em;
+  line-height: 1.8em;
 }
 
 p + p,
@@ -77,7 +77,7 @@ main ol li {
 
 // BOLD, ITALICS, UNDERLINE
 
-i, em, {
+i, em {
   font-style: italic;
 }
 

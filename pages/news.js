@@ -22,12 +22,12 @@ export default class News extends Component {
                     <span>Posted on <span>{displayDate(post.params.date)}</span> </span>
                     <span>by <span>{post.params.author}</span></span>
                   </div>
+                  <div
+                    className="post-preview__content"
+                    dangerouslySetInnerHTML={{__html: (post.params.preview)}}
+                  ></div>
                 </a>
               </Link>
-              <div
-                className="post-preview__content"
-                dangerouslySetInnerHTML={{__html: (post.params.preview)}}
-              ></div>
             </li>
           ))}
         </ol>
