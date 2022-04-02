@@ -61,10 +61,6 @@ body {
   margin-block-start: 0;
 }
 
-// .post-preview__item:hover h4 {
-//   border-bottom: solid 2px var(--clr-bg);
-// }
-
 .post-preview__info {
   font-style: italic;
   font-size: .9em;
@@ -74,3 +70,11 @@ body {
   margin-block-start: .5em;
 }
 
+// POST PAGES
+
+.post-info {
+  font-family: captain-comic, var(--font-stack);
+  font-weight: 300;
+  font-size: .9em;
+  text-align: center;
+}
