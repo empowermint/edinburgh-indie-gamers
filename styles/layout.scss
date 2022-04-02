@@ -74,7 +74,11 @@ header {
     align-items: end;
     text-align: end;
     padding: 10vw;
-    gap: max(10vw, 3.5ch);
+    gap: var(--pad-medium);
+  }
+
+  .main-menu__link {
+    background: none;
   }
 
   #menu__hamburger {
@@ -83,7 +87,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    padding: 5vw;
+    padding: var(--pad-small);
     z-index: 100;
   }
 

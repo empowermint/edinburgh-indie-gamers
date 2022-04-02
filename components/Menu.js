@@ -27,22 +27,22 @@ export default class Menu extends Component {
           <ul className="main-menu">
             <li>
               <Link href="/">
-                <a>Home</a>
+                <a className="main-menu__link">Home</a>
               </Link>
             </li>
             <li>
               <Link href="/news">
-                <a>News</a>
+                <a className="main-menu__link">News</a>
               </Link>
             </li>
             <li>
               <Link href="/events">
-                <a>Events</a>
+                <a className="main-menu__link">Events</a>
               </Link>
             </li>
             <li>
               <Link href="/code-of-conduct">
-                <a>Code of Conduct</a>
+                <a className="main-menu__link">Code of Conduct</a>
               </Link>
             </li>
           </ul>
