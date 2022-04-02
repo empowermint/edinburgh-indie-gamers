@@ -19,10 +19,9 @@ export default class Home extends Component {
             <p>Edinburgh Indie Gamers is an inclusive gaming club dedicated to indie roleplaying and story games.</p>
           </section>
           <section>
-            <h2>What is a indie roleplaying and/or story game?</h2>
-            <p>We plan small-press roleplaying games, narrative games, Nordic-style games, diceless games, GMful and GMless games, PbTA games... The types of games which let players tell a story together. Indie card and war games are also discussed and played here.</p>
+            <h2>What is a indie game?</h2>
+            <p>We plan small-press roleplaying games, narrative games, Nordic-style games, diceless games, GMful and GMless games, PbTA games... The types of games which let players tell a story together.</p>
             <p>If you're not what any of this means, that's a sign you need to get stuck in and join us. (The water's lovely...)</p>
-            <p>Many of our members enjoy and play board games, computer games, and traditional RPGs such as {'D&D'}. However, these are generally not discussed at Edinburgh Indie Gamers. This is important to us because gaming spaces tend to be dominated by those games. Here's one that isn't!</p>
           </section>
           <section>
             <h2>Fun for Everyone</h2>

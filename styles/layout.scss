@@ -24,11 +24,6 @@ main {
   flex-grow: 1;
 }
 
-section {
-  min-height: 100vh;
-  padding: var(--pad-small);
-}
-
 // HEADER
 
 header {
@@ -118,6 +113,13 @@ header {
   #menu__hamburger {
     display: none;
   }
+}
+
+// HOME PAGE
+
+section {
+  margin-block: var(--pad-large);
+  padding-inline: var(--pad-medium);
 }
 
 // HERO
