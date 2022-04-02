@@ -57,27 +57,27 @@ p {
   margin-block-start: var(--pad-small);
 }
 
-// p + p,
-// :is(h1, h2, h3, h4, h5, h6) + p {
-  
-//   
-// }
-
 :is(p, ul, ol) + :is(h1, h2, h3, h4, h5, h6) {
   margin-block-start: var(--pad-medium);
 }
-
-// TODO: Fix spacing of H1s
 
 // LISTS
 
 main ul li::before {
   content: "\2730";
   color: var(--clr-brand);
-  margin-inline: .6em;
+  width: 1em;
+  margin-inline-start: -1.6em;
+  margin-inline-end: .6em;
+  height: 100%;
 }
 
-main ol li {
+main ul li {
+  padding-inline-start: 2.2em;
+  margin-block-start: var(--pad-small);
+}
+
+main ol {
   list-style-type: decimal;
 }
 
