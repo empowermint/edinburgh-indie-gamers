@@ -34,10 +34,10 @@ header {
 .site-title h3 {
   margin: 0;
   font-size: clamp(1rem, 3vw, 1.4rem);
+  font-family: marvin, var(--font-stack);
 }
 
 .site-title {
-  font-family: marvin, var(--font-stack);
   background: var(--clr-bg);
   border-bottom: none;
 }

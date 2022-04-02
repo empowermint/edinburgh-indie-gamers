@@ -9,7 +9,7 @@ export default class News extends Component {
   render() {
     return (
       <Layout title="News - Edinburgh Indie Gamers">
-        <h2>News</h2>
+        <h1>News</h1>
         <ol className="post-preview">
           {this.props.allPostsData
           .slice(0, 12).

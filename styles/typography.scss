@@ -28,6 +28,8 @@ h1 {
 
 h1 {
   font-size: clamp(3rem, calc(1rem + 3vw), 6rem);
+  margin-block: 1em;
+  text-align: center;
 }
 
 h2 {
@@ -52,16 +54,20 @@ h6 {
 
 p {
   line-height: 1.8em;
+  margin-block-start: var(--pad-small);
 }
 
-p + p,
-:is(h1, h2, h3, h4, h5, h6) + p {
-  margin-block-start: 1.1em;
+// p + p,
+// :is(h1, h2, h3, h4, h5, h6) + p {
+  
+//   
+// }
+
+:is(p, ul, ol) + :is(h1, h2, h3, h4, h5, h6) {
+  margin-block-start: var(--pad-medium);
 }
 
-:is(h1, h2, h3, h4, h5, h6) {
-  margin-block-start: 1.4em;
-}
+// TODO: Fix spacing of H1s
 
 // LISTS
 
