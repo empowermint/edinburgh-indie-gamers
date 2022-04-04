@@ -3,10 +3,11 @@ title: Events
 ---
 ## Open Saturdays
 
+\
 On the second and fourth Saturday of each month, we play games! No prior experience or preparation needed. Anyone can pitch a single-session game, either in advance or on the night, or just turn up and play.
 
 * Online sessions take place on the second Saturday and muster from 19:00 on our [Discord Server](https://discord.gg/6vNbsq5tSV).
-* In person sessions take place on the fourth Saturday and start from 18:30 in [Kilderkin, 6 Canongate, EH8 8BT](https://kilderkingroup.co.uk/kilderkin-2/).
+* In-person sessions take place on the fourth Saturday and start from 18:30 in [Kilderkin, 6 Canongate, EH8 8BT](https://kilderkingroup.co.uk/kilderkin-2/).
 
 In both cases, we spend half an hour to pick which game(s) we want to play, and aim to end around 22:00. All Open Saturday events follow our [Code of Conduct](https://edinburgh-indie-gamers.netlify.app/code-of-conduct), and use safety tools (such as the X-Card). 
 
