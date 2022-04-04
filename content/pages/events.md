@@ -11,7 +11,7 @@ Twice per month, we come together to play indie & small press tabletop RPGs and 
 
 In both cases, we spend the first half hour chatting, discuss the pitched games, and decide which of them we want to play. Games aim to end around 22:00. 
 
-All attendees must follow our [Code of Conduct](https://edinburgh-indie-gamers.netlify.app/code-of-conduct). If there are any issues that need to be raised, please contact a member of our Mod Team though the club Discord Server linked above. 
+All attendees must follow our [Code of Conduct](https://edinburgh-indie-gamers.netlify.app/code-of-conduct). If there are any issues that need to be raised, please contact a member of our club Admin Team on the Discord Server linked above. 
 
 Please note that in August, both sessions will be online due to the Festival. Also, the fourth Saturday in December does not have an Open Saturday due to the holiday season. 
 
