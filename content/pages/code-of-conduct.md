@@ -1,7 +1,6 @@
 ---
 title: Code of Conduct
 ---
-
 Edinburgh Indie Gamers (EIG) is a gaming community. Everyone participating in Edinburgh Indie Gamers including, but not limited to our Discord Server, social media, and face to face gaming events, is required to agree to this Code of Conduct.
 
 EIG is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, mental illness, neurotype, physical appearance, body, age, race, ethnicity, nationality, language, or religion. We do not tolerate harassment of participants in any form.
@@ -24,7 +23,7 @@ That safety doesn't end at the gaming table, or with formal safety tools. We ask
 
 ### Inclusivity
 
-Community members must be supportive and inclusive. They should think about the impact of their words, the privilege they hold, and the relative position of those they interact with. As a community we prioritise marginalised people’s safety over privileged people’s comfort and will make all reasonable efforts to be inclusive.
+Community members must be supportive and inclusive. They should think about the impact of their words, the privilege they hold, and the relative position of those they interact with. As a community we prioritise marginalised people’s safety above privileged people’s comfort and will make all reasonable efforts to be inclusive.
 Play Guidelines
 
 ## Guidelines
@@ -51,43 +50,43 @@ We also strongly recommend that community members read [Accessibility in Tableto
 
 Harassment includes:
 
-- Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neurotype, physical appearance, body, age, race, ethnicity, nationality, language, or religion
-- Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment
-- Deliberate use of incorrect name or pronouns, including misgendering or use of ‘dead’ or rejected names
-- Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate
-- Physical contact and simulated physical contact (eg, textual descriptions like “hug” or “backrub”) without consent or after a request to stop
-- Making intentionally false communications, either written, spoken, or posted on any social media, that harms a member
-- Stealing or misappropriation of any property (including digital) belonging to another member or the community, including all materials developed for or on behalf of the community without the express permission of the member.
-- Acting in a manner that endangers the health or safety of another person
-- Threats of violence
-- Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
-- Deliberate intimidation
-- Stalking or following, including both physical and digital spaces
-- Harassing photography or recording, including logging online activity for harassment purposes
-- Sustained disruption of discussion
-- Unwelcome sexual attention
-- Patterns of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
-- Continued one-on-one communication after requests to cease
-- Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect other community members or other vulnerable people from intentional abuse
+* Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neurotype, physical appearance, body, age, race, ethnicity, nationality, language, or religion
+* Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment
+* Deliberate use of incorrect name or pronouns, including misgendering or use of ‘dead’ or rejected names
+* Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate
+* Physical contact and simulated physical contact (eg, textual descriptions like “hug” or “backrub”) without consent or after a request to stop
+* Making intentionally false communications, either written, spoken, or posted on any social media, that harms a member
+* Stealing or misappropriation of any property (including digital) belonging to another member or the community, including all materials developed for or on behalf of the community without the express permission of the member.
+* Acting in a manner that endangers the health or safety of another person
+* Threats of violence
+* Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm
+* Deliberate intimidation
+* Stalking or following, including both physical and digital spaces
+* Harassing photography or recording, including logging online activity for harassment purposes
+* Sustained disruption of discussion
+* Unwelcome sexual attention
+* Patterns of inappropriate social contact, such as requesting/assuming inappropriate levels of intimacy with others
+* Continued one-on-one communication after requests to cease
+* Deliberate “outing” of any aspect of a person’s identity without their consent, except as necessary to protect other community members or other vulnerable people from intentional abuse
 
-As a community we prioritise marginalised people’s safety over privileged people’s comfort. To that effect, The community reserves the right to not act on retaliatory complaints or other attempts to weaponize this Code of Conduct or other community processes. Such bad faith actions include, but are not limited to:
+As a community, we prioritise marginalised people’s safety above privileged people’s comfort. To that effect, The community reserves the right to not act on retaliatory complaints or other attempts to weaponize this Code of Conduct or other community processes. Such bad faith actions include, but are not limited to:
 
-- Complaints of ‘reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’
-- Complaints against the reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.”
-- Complaints of someone communicating in a ‘tone’ you don’t find congenial
-- Complaints against criticisms of racist, sexist, cissexist, or otherwise oppressive behaviour or assumptions
+* Complaints of ‘reverse’ -isms, including ‘reverse racism,’ ‘reverse sexism,’ and ‘cisphobia’
+* Complaints against the reasonable communication of boundaries, such as “leave me alone,” “go away,” or “I’m not discussing this with you.”
+* Complaints of someone communicating in a ‘tone’ you don’t find congenial
+* Complaints against criticisms of racist, sexist, cissexist, or otherwise oppressive behaviour or assumptions
 
 ## Reporting
 
-If you experience disrespectful or harassing behaviour by a member of the community, notice that someone else is being disrespected or harassed, or have any other concerns, please immediately contact one of the admin team via Facebook or Discord.
+If you experience disrespectful or harassing behaviour by a member of the community, notice that someone else is being disrespected or harassed, or have any other concerns, please immediately contact one of the Admin Team on our club [Discord Server](https://discord.gg/6vNbsq5tSV).
 
 ### Enforcement and Consequences
 
-Participants asked to stop any harassing behaviour are expected to comply immediately.
+Participants asked to modify their behaviour are expected to comply immediately.
 
-Any and all complaints received by the admin team are investigated and steps are  taken to minimise harm to participants.  We will endeavour to protect the confidentiality of a complainant to the fullest extent possible.
+Any and all complaints received by the admin team are investigated and steps are taken to minimise harm to participants.  If requested, we will endeavour to protect the confidentiality of a complainant to the fullest extent possible.
 
-If the person who is harassing you is a member of staff, either officially or in an ancillary capacity, they will recuse themselves from the handling of your incident.
+If the person who is harassing you is a member of the Admin Team, either officially or in an ancillary capacity, they will not be involved in handling the incident.
 
 You should be assured that there will be no retaliation against you for making good faith claims.
 
