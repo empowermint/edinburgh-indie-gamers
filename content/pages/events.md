@@ -1,7 +1,7 @@
 ---
 title: Events
 ---
-# Open Saturdays
+## Open Saturdays
 
 On the second and fourth Saturday of each month, we play games! No prior experience or preparation needed. Anyone can pitch a single-session game, either in advance or on the night, or just turn up and play.
 
