@@ -2,11 +2,12 @@ import Head from 'next/head';
 import Menu from './Menu';
 import Link from 'next/link';
 
-export default function Layout({ title, children }) {
+export default function Layout({ title, children, description }) {
   return (
     <>
       <Head>
         <title>{title}</title>
+        <meta name="description" content={description}></meta>
       </Head>
       <header className="header">
         <Link href="./">

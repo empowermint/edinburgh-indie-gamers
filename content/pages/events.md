@@ -1,5 +1,6 @@
 ---
 title: Events
+description: Edinburgh Indie Gamers' vibrant event calendar
 ---
 ## Open Saturdays
 

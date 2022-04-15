@@ -1,5 +1,6 @@
 ---
 title: Code of Conduct
+description: Edinburgh Indie Gamer's Code of Conduct is a collaborative document designed to make our community fun for all. You can use it too under a Creative Commons licence.
 ---
 Edinburgh Indie Gamers (EIG) is a gaming community. Everyone participating in Edinburgh Indie Gamers including, but not limited to our Discord Server, social media, and face to face gaming events, is required to agree to this Code of Conduct.
 
@@ -94,4 +95,4 @@ You should be assured that there will be no retaliation against you for making g
 
 This policy was based on the existing [XOXO Community Code of Conduct](https://2018.xoxofest.com/conduct "Example code"), the [Gauntlet code of Conduct](https://www.gauntlet-rpg.com/community-code-of-conduct.html) which is itself based on resources provided by [Geek Feminism](https://geekfeminism.org/about/code-of-conduct/ "Example code"), and borrows heavily from similar open source policies authored by [JSConf AU](https://2018.jsconfau.com/code-of-conduct "Example code") and [Django](https://www.djangoproject.com/conduct/ "Example code").
 
-This policy is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/ "Full liscence"). We encourage other events to adopt (and enforce) similar policies by using and remixing ours.
+This policy is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/ "Full licence"). We encourage other events to adopt (and enforce) similar policies by using and remixing ours.

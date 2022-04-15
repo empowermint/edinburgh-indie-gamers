@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default class News extends Component {
   render() {
     return (
-      <Layout title="News - Edinburgh Indie Gamers">
+      <Layout title="News - Edinburgh Indie Gamers" description="News from the Edinburgh Indie Gamers">
         <h1>News</h1>
         <ol className="post-preview">
           {this.props.allPostsData

@@ -5,7 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <>
-        <Layout title="Edinburgh Indie Gamers - Home">
+        <Layout title="Edinburgh Indie Gamers - Home" description="Edinburgh Indie Gamers - RPGs and story games">
           <div className="hero">
             <h1>Edinburgh Indie Gamers</h1>
             <svg viewBox="0 0 187 45" xmlns="http://www.w3.org/2000/svg" rel="">

@@ -8,7 +8,7 @@ import { displayDate } from '../lib/dates';
 export default class Post extends Component {
   render() {
     return (
-      <Layout title={this.props.title}>
+      <Layout title={this.props.title} description={this.props.description}>
         <article>
           <h1>{this.props.title}</h1>
           <div className="post-info">
@@ -40,6 +40,7 @@ export async function getStaticProps({ params }) {
       author: post.yaml.author,
       date: post.yaml.date.toJSON(),
       category: post.yaml.category,
+      description: post.yaml.description,
       content: post.content
     }
   }
