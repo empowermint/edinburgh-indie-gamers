@@ -7,6 +7,7 @@
   --clr-brand: #ff5700;
   --clr-primary: hsl(0 0% 5%);
   --clr-bg: hsl(0 0% 99%);
+  --pad-x-large: clamp(2rem, 32vw, 16rem);
   --pad-large: clamp(1rem, 16vw, 8rem);
   --pad-medium: clamp(.5rem, 5vw, 3rem);
   --pad-small: clamp(.5rem, 2vw, 1rem);
@@ -77,4 +78,66 @@ body {
   font-weight: 300;
   font-size: .9em;
   text-align: center;
+}
+
+// CUPIDS
+
+.hero {
+ position: relative;
+ padding-bottom: var(--pad-large);
+}
+
+.cupid-banner__background {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateY(45%) translateX(0%);
+}
+
+.cupid-banner__banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(-15%) translateX(9%) scale(70%);
+}
+
+.cupid-banner__text {
+  font-family: captain-comic, var(--font-stack);
+  letter-spacing: .03em;
+}
+
+@media screen and (min-width: 550px) {
+  .hero {
+    padding-bottom: var(--pad-medium);
+  }
+
+  .cupid-banner__background {
+    transform: translateY(67%) translateX(1%);
+  }
+
+  .cupid-banner__banner {
+    transform: translateY(50%) translateX(10%) scale(70%);
+  }
+}
+
+section {
+  position: relative;
+}
+
+.cupid__feature {
+  width: 12rem;
+  position: relative;
+  float: right;
+  transition: .2s ease-out;
+}
+
+@media screen and (min-width: 750px) {
+  .cupid__feature {
+    transform: translateX(45%);
+  }
+
+  .cupid__link:hover img,
+  .cupid__link:focus img {
+    transform: translateX(45%) scale(1.1) rotate(-5deg);
+  }
 }

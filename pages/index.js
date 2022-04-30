@@ -8,11 +8,19 @@ export default class Home extends Component {
         <Layout title="Edinburgh Indie Gamers - Home" description="Edinburgh Indie Gamers - RPGs and story games">
           <div className="hero">
             <h1>Edinburgh Indie Gamers</h1>
-            <svg viewBox="0 0 187 45" xmlns="http://www.w3.org/2000/svg" rel="">
+            <svg viewBox="0 0 187 45" xmlns="http://www.w3.org/2000/svg">
               <text x="11%" y="45%" className="hero__title">Edinburgh</text>
               <text y="95%" className="hero__title">Indie Gamers</text>
             </svg>
-            {/* <span>Independent since 1649</span> */}
+            <img class="cupid-banner__background" src="../images/eig-banner-angels-compressed.svg" alt="Two cupids hold aloft a banner with the tagline" />
+            <svg class="cupid-banner__banner" viewBox="0 0 500 60" xmlns="http://www.w3.org/2000/svg">
+              <path id="banner-path" fill="none" stroke="yellow" d="M0,50 Q 225,70 500,-10" />
+              <text className="cupid-banner__text">
+                <textPath href="#banner-path">
+                  Story Games | Small Press | Indie RPGs | OSR
+                </textPath>
+              </text>
+            </svg>
           </div>
           <section>
             <h2>Welcome</h2>
@@ -33,8 +41,9 @@ export default class Home extends Component {
           </section>
           <section>
             <h2>Awesome Zine</h2>
-            <p>In 2021 we crowdfunded a Zine to share games, art and articles by our community with the wider world. One of the things the zine funded was a website for our club. This is that website!</p>
+            <p>In 2021 we crowdfunded a zine to share games, art and articles by our community with the wider world. One of the things the zine funded was a website for our club. This is that website!</p>
             <p>We would love for you to read, print, enjoy, translate and generally consume our zine. You can <a href="https://empowermint.itch.io/edinburgh-indie-gamers-zine-2021">download it for free on itch.io</a></p>
+            <a class="cupid__link" href="https://empowermint.itch.io/edinburgh-indie-gamers-zine-2021"><img class="cupid cupid__feature" src="images/eig-feature-cupid-compressed.svg" alt="A cupid holds a copy of the EIG zine" /></a>
           </section>
         </Layout>
       </>
