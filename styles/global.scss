@@ -78,3 +78,43 @@ body {
   font-size: .9em;
   text-align: center;
 }
+
+// CUPIDS
+
+.hero {
+ position: relative;
+ padding-bottom: var(--pad-large);
+}
+
+.cupid__banner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateY(45%) translateX(0%);
+}
+
+@media screen and (min-width: 550px) {
+  .hero {
+    padding-bottom: var(--pad-medium);
+  }
+
+  .cupid__banner {
+    transform: translateY(67%) translateX(1%);
+  }
+}
+
+section {
+  position: relative;
+}
+
+.cupid__feature {
+  width: 12rem;
+  position: relative;
+  float: right;
+}
+
+@media screen and (min-width: 750px) {
+  .cupid__feature {
+    transform: translateX(45%);
+  }
+}

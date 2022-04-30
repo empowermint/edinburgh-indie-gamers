@@ -33,7 +33,7 @@ export default class Home extends Component {
           </section>
           <section>
             <h2>Awesome Zine</h2>
-            <p>In 2021 we crowdfunded a Zine to share games, art and articles by our community with the wider world. One of the things the zine funded was a website for our club. This is that website!</p>
+            <p>In 2021 we crowdfunded a zine to share games, art and articles by our community with the wider world. One of the things the zine funded was a website for our club. This is that website!</p>
             <p>We would love for you to read, print, enjoy, translate and generally consume our zine. You can <a href="https://empowermint.itch.io/edinburgh-indie-gamers-zine-2021">download it for free on itch.io</a></p>
             <img class="cupid cupid__feature" src="images/eig-feature-cupid-compressed.svg" alt="A cupid holds a copy of the EIG zine" />
           </section>
