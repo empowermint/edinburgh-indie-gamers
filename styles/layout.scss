@@ -122,8 +122,12 @@ header {
 // HOME PAGE
 
 section {
-  margin-block: var(--pad-large);
+  margin-block: var(--pad-x-large);
   padding-inline: var(--pad-medium);
+}
+
+section h2 {
+  margin-bottom: var(--pad-medium);
 }
 
 // HERO
