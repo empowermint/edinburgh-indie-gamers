@@ -12,7 +12,7 @@ export default class Home extends Component {
               <text x="11%" y="45%" className="hero__title">Edinburgh</text>
               <text y="95%" className="hero__title">Indie Gamers</text>
             </svg>
-            {/* <span>Independent since 1649</span> */}
+            <img class="cupid cupid__banner" src="../images/eig-banner-angels-compressed.svg" alt="Two cupids hold aloft a banner" />
           </div>
           <section>
             <h2>Welcome</h2>
@@ -35,6 +35,7 @@ export default class Home extends Component {
             <h2>Awesome Zine</h2>
             <p>In 2021 we crowdfunded a Zine to share games, art and articles by our community with the wider world. One of the things the zine funded was a website for our club. This is that website!</p>
             <p>We would love for you to read, print, enjoy, translate and generally consume our zine. You can <a href="https://empowermint.itch.io/edinburgh-indie-gamers-zine-2021">download it for free on itch.io</a></p>
+            <img class="cupid cupid__feature" src="images/eig-feature-cupid-compressed.svg" alt="A cupid holds a copy of the EIG zine" />
           </section>
         </Layout>
       </>
