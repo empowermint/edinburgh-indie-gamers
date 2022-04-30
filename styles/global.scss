@@ -86,11 +86,23 @@ body {
  padding-bottom: var(--pad-large);
 }
 
-.cupid__banner {
+.cupid-banner__background {
   position: absolute;
   left: 0;
   bottom: 0;
   transform: translateY(45%) translateX(0%);
+}
+
+.cupid-banner__banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(-15%) translateX(9%) scale(70%);
+}
+
+.cupid-banner__text {
+  font-family: captain-comic, var(--font-stack);
+  letter-spacing: .03em;
 }
 
 @media screen and (min-width: 550px) {
@@ -98,8 +110,12 @@ body {
     padding-bottom: var(--pad-medium);
   }
 
-  .cupid__banner {
+  .cupid-banner__background {
     transform: translateY(67%) translateX(1%);
+  }
+
+  .cupid-banner__banner {
+    transform: translateY(50%) translateX(10%) scale(70%);
   }
 }
 

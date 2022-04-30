@@ -8,11 +8,19 @@ export default class Home extends Component {
         <Layout title="Edinburgh Indie Gamers - Home" description="Edinburgh Indie Gamers - RPGs and story games">
           <div className="hero">
             <h1>Edinburgh Indie Gamers</h1>
-            <svg viewBox="0 0 187 45" xmlns="http://www.w3.org/2000/svg" rel="">
+            <svg viewBox="0 0 187 45" xmlns="http://www.w3.org/2000/svg">
               <text x="11%" y="45%" className="hero__title">Edinburgh</text>
               <text y="95%" className="hero__title">Indie Gamers</text>
             </svg>
-            <img class="cupid cupid__banner" src="../images/eig-banner-angels-compressed.svg" alt="Two cupids hold aloft a banner" />
+            <img class="cupid-banner__background" src="../images/eig-banner-angels-compressed.svg" alt="Two cupids hold aloft a banner with the tagline" />
+            <svg class="cupid-banner__banner" viewBox="0 0 500 60" xmlns="http://www.w3.org/2000/svg">
+              <path id="banner-path" fill="none" stroke="yellow" d="M0,50 Q 225,70 500,-10" />
+              <text className="cupid-banner__text">
+                <textPath href="#banner-path">
+                  Story Games | Small Press | Indie RPGs | OSR
+                </textPath>
+              </text>
+            </svg>
           </div>
           <section>
             <h2>Welcome</h2>
