@@ -127,10 +127,16 @@ section {
   width: 12rem;
   position: relative;
   float: right;
+  transition: .2s ease-out;
 }
 
 @media screen and (min-width: 750px) {
   .cupid__feature {
     transform: translateX(45%);
+  }
+
+  .cupid__link:hover img,
+  .cupid__link:focus img {
+    transform: translateX(45%) scale(1.1) rotate(-5deg);
   }
 }
