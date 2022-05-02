@@ -14,7 +14,7 @@ export default class Home extends Component {
             </svg>
             <img class="cupid-banner__background" src="../images/eig-banner-angels-compressed.svg" alt="Two cupids hold aloft a banner with the tagline" />
             <svg class="cupid-banner__banner" viewBox="0 0 500 60" xmlns="http://www.w3.org/2000/svg">
-              <path id="banner-path" fill="none" stroke="yellow" d="M0,50 Q 225,70 500,-10" />
+              <path id="banner-path" fill="none" stroke="none" d="M0,50 Q 225,70 500,-10" />
               <text className="cupid-banner__text">
                 <textPath href="#banner-path">
                   Story Games | Small Press | Indie RPGs | OSR
