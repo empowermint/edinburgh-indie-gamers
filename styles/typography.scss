@@ -73,14 +73,14 @@ p {
 main ul li::before {
   content: "\2730";
   color: var(--clr-brand);
+  display: inline-block;
   width: 1em;
   margin-inline-start: -1.6em;
-  margin-inline-end: .6em;
-  height: 100%;
+  margin-inline-end: .5em;
 }
 
 main ul li {
-  padding-inline-start: 2.2em;
+  margin-inline-start: 2.2em;
   margin-block-start: var(--pad-small);
 }
 
