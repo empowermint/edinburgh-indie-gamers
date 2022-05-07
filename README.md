@@ -6,18 +6,24 @@
 
 The live Edinburgh Indie Gamers website is deployed at [https://edinburgh-indie-gamers.netlify.app/](https://edinburgh-indie-gamers.netlify.app/).
 
-<!-- ### Deploy Locally
+### Deploy Locally
 
-You can run and extend the site locally using NPN:
+You can deploy the site locally using NPN:
 
 ```bash
 # Clone repository from GitHub
 
+$ gh repo clone empowermint/edinburgh-indie-gamers
+
 # Install dependencies
+
+$ npm install
 
 # Start development server
 
-``` -->
+$ npm run dev
+
+```
 
 ## Guide for Contributors
 
