@@ -60,6 +60,7 @@ header {
     font-size: calc(1rem + 2vw);
     transform: translateX(100%);
     transition: .5s ease-out;
+    z-index: 100;
   }
 
   nav.menu-open {
