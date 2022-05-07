@@ -37,7 +37,7 @@ export default class Home extends Component {
           </section>
           <section>
             <h2>Join the Discord</h2>
-            <p>You can join our Discord server to chat with members and co-ordinate online games. Generally, members should be from Edinburgh, Scotland and its nearby regions, but we're also open to folks who are geographically remote or otherwise isolated.</p>
+            <p>You can <a href="https://discord.gg/6vNbsq5tSV" alt="EIG Discord server invitation">join our Discord server</a> to chat with members and co-ordinate online games. Generally, members should be from Edinburgh, Scotland and its nearby regions, but we're also open to folks who are geographically remote or otherwise isolated.</p>
           </section>
           <section>
             <h2>Awesome Zine</h2>
