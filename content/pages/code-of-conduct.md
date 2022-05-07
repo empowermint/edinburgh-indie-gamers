@@ -31,15 +31,11 @@ Play Guidelines
 
 In the course of exemplifying the Community Principles, all members of our community shall function within the following guidelines:
 
-Respect player pronouns and character pronouns; routinely reaffirm these throughout play and at the start of each session
-
-Practice regular check-ins for enthusiastic consent of game content
-
-Respect player autonomy and practice regular check-ins to affirm enthusiastic agreement of game development
-
-Clearly declare the concept, aim, tone, & subject matter (including clear content warnings) of every game played through Edinburgh Indie Gamers.
-
-Explain and incorporate some form of tools for safe play (e.g. X-Card, Lines & Veils, etc) into every game shared
+* Respect player pronouns and character pronouns; routinely reaffirm these throughout play and at the start of each session
+* Practice regular check-ins for enthusiastic consent of game content
+* Respect player autonomy and practice regular check-ins to affirm enthusiastic agreement of game development
+* Clearly declare the concept, aim, tone, & subject matter (including clear content warnings) of every game played through Edinburgh Indie Gamers.
+* Explain and incorporate some form of tools for safe play (e.g. X-Card, Lines & Veils, etc) into every game shared
 
 ## Tools
 

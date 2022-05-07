@@ -4,7 +4,6 @@ description: Edinburgh Indie Gamers' vibrant event calendar
 ---
 ## Open Saturdays
 
-\
 Twice per month, we come together to play indie & small press tabletop RPGs and story games! No prior experience or preparation is needed. Anyone can pitch a single-session game they would like to facilitate, either in advance or on the night. Otherwise, just turn up and play!
 
 * Online sessions take place on the second Saturday of each month and muster from 19:00 on our [Discord Server](https://discord.gg/6vNbsq5tSV).
