@@ -44,12 +44,12 @@ The website is built using:
 - ~~functional dev environment, production and deploy pipeline~~
 - ~~visual design~~
 - ~~site map and draft content~~
-- implement blogging
-- set up custom site structure
-- implement site design
-- implement basic calendar functionality
-- grant contributor access
-- redirect URL
+- ~~implement blogging~~
+- ~~set up custom site structure~~
+- ~~implement site design~~
+- ~~implement basic calendar functionality~~
+- ~~grant contributor access~~
+- ~~redirect URL~~
 - WCAG AA implementation
 - accessibility and responsiveness audit
 - implement advanced event calendar functionality
