@@ -17,7 +17,7 @@ export default class Home extends Component {
               <path id="banner-path" fill="none" stroke="none" d="M0,50 Q 225,70 500,-10" />
               <text className="cupid-banner__text">
                 <textPath href="#banner-path">
-                  Story Games | Small Press | Indie RPGs | OSR
+                  Story Games | Small Press | Indie RPGs | PbtA
                 </textPath>
               </text>
             </svg>
@@ -28,8 +28,8 @@ export default class Home extends Component {
           </section>
           <section>
             <h2>What is a indie game?</h2>
-            <p>We plan small-press roleplaying games, narrative games, Nordic-style games, diceless games, GMful and GMless games, PbTA games... The types of games which let players tell a story together.</p>
-            <p>If you're not what any of this means, that's a sign you need to get stuck in and join us. (The water's lovely...)</p>
+            <p>We play small-press roleplaying games, narrative games, Nordic-style games, diceless games, GMful and GMless games, PbTA games... The types of games which let players tell a story together.</p>
+            <p>If you're not sure what any of this means, that's a sign you need to get stuck in and join us. (The water's lovely...)</p>
           </section>
           <section>
             <h2>Fun for Everyone</h2>
