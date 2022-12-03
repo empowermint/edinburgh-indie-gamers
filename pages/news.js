@@ -16,17 +16,15 @@ export default class News extends Component {
           map((post) => (
             <li key={post.params.postSlug[1]} className="post-preview__item">
               <Link href={`/${encodeURIComponent(post.params.postSlug[0])}/${encodeURIComponent(post.params.postSlug[1])}`}>
-                <a>
-                  <h4>{post.params.title}</h4>
-                  <div className="post-preview__info">
-                    <span>Posted on <span>{displayDate(post.params.date)}</span> </span>
-                    <span>by <span>{post.params.author}</span></span>
-                  </div>
-                  <div
-                    className="post-preview__content"
-                    dangerouslySetInnerHTML={{__html: (post.params.preview)}}
-                  ></div>
-                </a>
+                <h4>{post.params.title}</h4>
+                <div className="post-preview__info">
+                  <span>Posted on <span>{displayDate(post.params.date)}</span> </span>
+                  <span>by <span>{post.params.author}</span></span>
+                </div>
+                <div
+                  className="post-preview__content"
+                  dangerouslySetInnerHTML={{__html: (post.params.preview)}}
+                ></div>
               </Link>
             </li>
           ))}

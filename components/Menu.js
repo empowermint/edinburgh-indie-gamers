@@ -26,23 +26,23 @@ export default class Menu extends Component {
         <nav id="main-menu">
           <ul className="main-menu">
             <li>
-              <Link href="/">
-                <a className="main-menu__link">Home</a>
+              <Link href="/" className="main-menu__link">
+                Home
               </Link>
             </li>
             <li>
-              <Link href="/news">
-                <a className="main-menu__link">News</a>
+              <Link href="/news" className="main-menu__link">
+                News
               </Link>
             </li>
             <li>
-              <Link href="/events">
-                <a className="main-menu__link">Events</a>
+              <Link href="/events" className="main-menu__link">
+                Events
               </Link>
             </li>
             <li>
-              <Link href="/code-of-conduct">
-                <a className="main-menu__link">Code of Conduct</a>
+              <Link href="/code-of-conduct" className="main-menu__link">
+                Code of Conduct
               </Link>
             </li>
           </ul>
