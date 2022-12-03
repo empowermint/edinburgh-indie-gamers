@@ -2,7 +2,9 @@ import Head from 'next/head';
 import Menu from './Menu';
 import Link from 'next/link';
 
-export default function Layout({ title, children, description }) {
+export default function Layout({ meta, children }) {
+  const { title, description } = meta;
+  
   return (
     <>
       <Head>
