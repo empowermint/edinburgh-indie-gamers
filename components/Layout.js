@@ -8,7 +8,7 @@ export default function Layout({ meta, children }) {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{title + " | Edinburgh Indie Gamers"}</title>
         <meta name="description" content={description}></meta>
       </Head>
       <header className="header">
