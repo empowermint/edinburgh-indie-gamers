@@ -143,3 +143,23 @@ section {
     transform: translateX(45%) scale(1.1) rotate(-5deg);
   }
 }
+
+// BUTTONS
+
+a.button {
+  display: inline-block;
+  margin-block: var(--pad-medium);
+  padding: var(--pad-small);
+  background: var(--clr-brand);
+  border-radius: 1em;
+  font-family: captain-comic, var(--font-stack);
+  line-height: 1em;  
+  box-shadow: 3px 3px 0 var(--clr-primary);
+  filter: brightness(150%);
+}
+
+a.button:hover,
+a.button:active {
+  filter: brightness(100%);
+  box-shadow: 6px 6px 0 var(--clr-primary);
+}
