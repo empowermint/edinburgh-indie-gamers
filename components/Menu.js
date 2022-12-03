@@ -31,6 +31,11 @@ export default class Menu extends Component {
               </Link>
             </li>
             <li>
+              <Link href="/faq" className="main-menu__link">
+                FAQ
+              </Link>
+            </li>
+            <li>
               <Link href="/events" className="main-menu__link">
                 Events
               </Link>
