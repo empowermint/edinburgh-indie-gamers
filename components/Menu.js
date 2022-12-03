@@ -31,11 +31,6 @@ export default class Menu extends Component {
               </Link>
             </li>
             <li>
-              <Link href="/news" className="main-menu__link">
-                News
-              </Link>
-            </li>
-            <li>
               <Link href="/events" className="main-menu__link">
                 Events
               </Link>
