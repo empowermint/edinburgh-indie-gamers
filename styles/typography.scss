@@ -60,7 +60,6 @@ p {
 
 :is(p, ul, ol) + :is(h3, h4, h5, h6) {
   margin-block-start: var(--pad-medium);
-  line-height: 1em;
 }
 
 :is(p, ul, ol) + :is(h2) {
