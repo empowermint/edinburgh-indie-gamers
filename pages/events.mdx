@@ -1,7 +1,12 @@
----
-title: Events
-description: Edinburgh Indie Gamers' vibrant event calendar
----
+import Layout from "../components/Layout.js"
+
+export const meta = {
+  title: "Events",
+  description: "Edinburgh Indie Gamers' vibrant event calendar"
+}
+
+# Events
+
 ## Open Saturdays
 
 Twice per month, we come together to play indie & small press tabletop RPGs and story games! No prior experience or preparation is needed. Anyone can pitch a single-session game they would like to facilitate, either in advance or on the night. Otherwise, just turn up and play!
@@ -15,4 +20,4 @@ All attendees must follow our [Code of Conduct](https://edinburgh-indie-gamers.n
 
 Please note that in August, both sessions will be online due to the Festival. Also, the fourth Saturday in December does not have an Open Saturday due to the holiday season. 
 
-Any updates and changes to our regular scheduling will appear on our [News Feed](https://edinburgh-indie-gamers.netlify.app/news).
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>
