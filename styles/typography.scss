@@ -68,6 +68,10 @@ p {
   margin-block-end: calc(var(--pad-small)*2);
 }
 
+:is(h2, h3, h4, h5, h6) + :is(h2, h3, h4, h5, h6) {
+  margin-block-start: calc(var(--pad-small)*2);
+}
+
 // LISTS
 
 main ul li::before {
