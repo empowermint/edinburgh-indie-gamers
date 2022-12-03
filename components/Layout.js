@@ -10,8 +10,8 @@ export default function Layout({ title, children, description }) {
         <meta name="description" content={description}></meta>
       </Head>
       <header className="header">
-        <Link href="./">
-          <a className="site-title"><h3>Edinburgh Indie Gamers</h3></a>
+        <Link href="./" className="site-title">
+          <h3>Edinburgh Indie Gamers</h3>
         </Link>
         <Menu />
       </header>
