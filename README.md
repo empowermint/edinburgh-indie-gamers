@@ -4,7 +4,7 @@
 
 ## Deployment
 
-The live Edinburgh Indie Gamers website is deployed at [https://edinburgh-indie-gamers.netlify.app/](https://edinburgh-indie-gamers.netlify.app/).
+The live Edinburgh Indie Gamers website is deployed at [www.edinburghindiegamers.com](www.edinburghindiegamers.com).
 
 ### Deploy Locally
 
@@ -25,31 +25,10 @@ $ npm run dev
 
 ```
 
-## Guide for Contributors
-
-To edit or add content to the site, navigate to [https://edinburgh-indie-gamers.netlify.app/admin](https://edinburgh-indie-gamers.netlify.app/admin) and log in using the credentials supplied to you by the EIG admin team.
-
 ## Technologies
 
 The website is built using:
 
-- [Next.js](https://nextjs.org/) v12.1
-- [React](https://reactjs.org/) v17.0
-- [Micromark](https://github.com/micromark/micromark/blob/main/readme.md) v3.0
-- [Gray Matter](https://github.com/jonschlinkert/gray-matter) v4.0
-- [Netlify CMS](https://www.netlifycms.org/) v2.0
-
-## Project Roadmap and Progress
-
-- ~~functional dev environment, production and deploy pipeline~~
-- ~~visual design~~
-- ~~site map and draft content~~
-- ~~implement blogging~~
-- ~~set up custom site structure~~
-- ~~implement site design~~
-- ~~implement basic calendar functionality~~
-- ~~grant contributor access~~
-- ~~redirect URL~~
-- WCAG AA implementation
-- accessibility and responsiveness audit
-- implement advanced event calendar functionality
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [MDX](http://mdxjs.com/)
