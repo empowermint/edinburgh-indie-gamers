@@ -1,4 +1,5 @@
 import Layout from "../components/Layout.js"
+import DiscordEvents from "../components/DiscordEvents.js"
 
 export const meta = {
   title: "Events",
@@ -18,6 +19,8 @@ In both cases, we spend the first half hour chatting, discuss the pitched games,
 
 All attendees must follow our [Code of Conduct](https://edinburgh-indie-gamers.netlify.app/code-of-conduct). If there are any issues that need to be raised, please contact a member of our club Admin Team on the Discord Server linked above. 
 
-Please note that in August, both sessions will be online due to the Festival. Also, the fourth Saturday in December does not have an Open Saturday due to the holiday season. 
+Please note that in August, both sessions will be online due to the Festival. Also, the fourth Saturday in December does not have an Open Saturday due to the holiday season.
+
+<DiscordEvents />
 
 export default ({ children }) => <Layout meta={meta}>{children}</Layout>
