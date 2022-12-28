@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "next",
+    "dev": "next && netlify dev",
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export"
@@ -37,6 +37,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/preset-react": "^7.16.7",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "netlify-cli": "^12.5.0"
   }
 }
