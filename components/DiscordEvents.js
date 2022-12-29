@@ -1,8 +1,12 @@
-export default function DiscordEvents() {
+import { requestToBodyStream } from "next/dist/server/body-streams"
 
+export default function DiscordEvents(props) {
+  console.dir(props)
+  
   return (
     <>
-      <h4>Discord Events List</h4>
+      
     </>
   )
 }
+
