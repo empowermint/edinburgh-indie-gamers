@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "next-dev": "next",
-    "dev": "netlify dev",
+    "dev": "next && netlify dev",
+    "login": "netlify login",
+    "link": "netlify link",
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export"
