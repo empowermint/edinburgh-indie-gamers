@@ -71,9 +71,9 @@ header {
     block-size: 100%;
     display: flex;
     flex-flow: column;
-    justify-content: end;
-    align-items: end;
-    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: flex-end;
     padding: 10vw;
     gap: var(--pad-medium);
   }
@@ -107,7 +107,7 @@ header {
   
   header nav ul {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: var(--pad-x-small);
   }
 
