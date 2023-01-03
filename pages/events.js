@@ -11,14 +11,14 @@ export default function Events(props) {
   return (
     <Layout meta={meta}>
       <EventsIntro />
-      <h2>Upcoming Events</h2>
+      <h2 className="event-title">Upcoming Events</h2>
       {console.dir(props)}
       <ul className="event-list">
         {props.events.map((event) =>
           <li key={event.id}>
             <h3>{event.name}</h3>
             <DisplayDate start={event.scheduled_start_time} end={event.scheduled_end_time} />
-            <p>{event.description}</p>
+            <p className="event-description">{event.description}</p>
           </li>
         )}
       </ul>
