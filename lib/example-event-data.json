@@ -1,0 +1,180 @@
+{
+  "events": [
+    {
+      "id": "1038371881650229258",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "688701221003067402",
+      "name": "Two Player Story Game Night",
+      "description": "A bunch of us have decided to meet up to play some two player story games. Playing with just two people, rather than a tableful, can be intimate, intense and really rewarding. Everyone is welcome to join us.  I’ve created the #two-player-games-night channel to plan and talk about games. \n\nWe’ll gather from 6:30 for a 7pm start.\n\nWe’ll need enough games offered so that there is at least one for every two people, so we’ll need to be a bit more organised than for our usual Open Saturday events. If you’d like to come please mark yourself as Interested here and stop by the #two-player-games-night channel to say hello. Similarly, please don’t click Interested unless you plan to come.",
+      "image": null,
+      "scheduled_start_time": "2023-01-07T18:30:00+00:00",
+      "scheduled_end_time": "2023-01-07T21:30:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    },
+    {
+      "id": "1046526835128815647",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "657378941128146956",
+      "name": "Story Games Hangout - Jan",
+      "description": null,
+      "image": null,
+      "scheduled_start_time": "2023-01-28T18:30:00+00:00",
+      "scheduled_end_time": "2023-01-28T22:00:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    },
+    {
+      "id": "1046527096475877466",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "657378941128146956",
+      "name": "Story Games Hangout - Feb",
+      "description": null,
+      "image": null,
+      "scheduled_start_time": "2023-02-25T18:30:00+00:00",
+      "scheduled_end_time": "2023-02-25T22:00:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    },
+    {
+      "id": "1046527335941279845",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "657378941128146956",
+      "name": "Story Games Hangout - March",
+      "description": null,
+      "image": null,
+      "scheduled_start_time": "2023-03-25T18:30:00+00:00",
+      "scheduled_end_time": "2023-03-25T22:00:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    },
+    {
+      "id": "1046527737545896026",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "657378941128146956",
+      "name": "Story Games Hangout - April",
+      "description": null,
+      "image": null,
+      "scheduled_start_time": "2023-04-22T17:30:00+00:00",
+      "scheduled_end_time": "2023-04-22T21:00:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    },
+    {
+      "id": "1046528023429648465",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "657378941128146956",
+      "name": "Story Games Hangout - May",
+      "description": null,
+      "image": null,
+      "scheduled_start_time": "2023-05-27T17:30:00+00:00",
+      "scheduled_end_time": "2023-05-27T21:00:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    },
+    {
+      "id": "1046528395414098000",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "657378941128146956",
+      "name": "Story Games Hangout - June",
+      "description": null,
+      "image": null,
+      "scheduled_start_time": "2023-06-24T17:30:00+00:00",
+      "scheduled_end_time": "2023-06-24T21:00:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    },
+    {
+      "id": "1046528683105599548",
+      "guild_id": "681215883091116081",
+      "channel_id": null,
+      "creator_id": "657378941128146956",
+      "name": "Story Game Hangout - July",
+      "description": null,
+      "image": null,
+      "scheduled_start_time": "2023-07-22T17:30:00+00:00",
+      "scheduled_end_time": "2023-07-22T21:00:00+00:00",
+      "privacy_level": 2,
+      "status": 1,
+      "entity_type": 3,
+      "entity_id": null,
+      "entity_metadata": [
+        null
+      ],
+      "sku_ids": [],
+      "creator": [
+        null
+      ]
+    }
+  ]
+}
