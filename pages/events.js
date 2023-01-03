@@ -27,7 +27,7 @@ export default function Events(props) {
 }
 
 export async function getStaticProps(context) {
-  const response = await fetch("/.netlify/functions/fetch-events")
+  const response = await fetch(`${process.env.URL_FUNC}.netlify/functions/fetch-events`)
   if (!response.ok) console.error("Fetch response status: " + response.status)
   const data = await response.json()
 
