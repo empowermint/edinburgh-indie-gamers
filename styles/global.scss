@@ -4,9 +4,11 @@
 @use 'accessibility.scss';
 
 :root {
-  --clr-brand: #ff5700;
+  --clr-brand: hsl(20, 100%, 50%);
   --clr-primary: hsl(0 0% 5%);
   --clr-bg: hsl(0 0% 99%);
+  --clr-brand-bg: hsl(20, 100%, 95%);
+  --clr-brand-soft: hsl(20, 100%, 80%);
   --pad-x-large: clamp(2rem, 32vw, 16rem);
   --pad-large: clamp(1rem, 16vw, 8rem);
   --pad-medium: clamp(.5rem, 5vw, 3rem);
@@ -162,4 +164,39 @@ a.button:hover,
 a.button:active {
   filter: brightness(100%);
   box-shadow: 6px 6px 0 var(--clr-primary);
+}
+
+// DISCORD EVENTS
+
+.event-list {
+  li {
+    margin-inline: 0;
+    padding: var(--pad-small);
+    background-color: var(--clr-brand-bg);
+    border-top: solid 3px var(--clr-brand-soft);
+    border-radius: 0 0 var(--pad-small) var(--pad-small);
+    margin-block: var(--pad-small);
+  }
+
+  li::before {
+    display: none;
+  }
+}
+
+.event-date {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 400px) {
+  .event-date::before {
+    content: "\27A4";
+    display: inline-block;
+    color: var(--clr-brand);
+    width: 1em;
+    margin-inline-end: var(--pad-x-small);
+  }
+}
+
+.event-title {
+  margin-inline: var(--pad-small);
 }

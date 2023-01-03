@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "next",
+    "next-dev": "next",
+    "dev": "next && netlify dev",
+    "login": "netlify login",
+    "link": "netlify link",
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export"
@@ -25,6 +28,7 @@
     "@mdx-js/loader": "^2.1.5",
     "@mdx-js/react": "^2.1.5",
     "@next/mdx": "^13.0.6",
+    "discord-interactions": "^3.2.0",
     "eslint-config-next": "^13.0.6",
     "micromark": "^3.0.10",
     "micromark-extension-frontmatter": "^1.0.0",
@@ -37,6 +41,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/preset-react": "^7.16.7",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "netlify-cli": "^12.5.0"
   }
 }
