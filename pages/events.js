@@ -27,7 +27,7 @@ export default function Events(props) {
 }
 
 export async function getStaticProps(context) {
-  const response = await fetch("https://edinburghindiegamers.com/.netlify/functions/fetch-events")
+  const response = await fetch("http://localhost:8888/.netlify/functions/fetch-events")
   if (!response.ok) console.error("Fetch response status: " + response.status)
   const data = await response.json()
 
