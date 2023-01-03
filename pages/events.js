@@ -1,4 +1,5 @@
 import Layout from "../components/Layout.js"
+import DisplayDate from "../components/DisplayEventDate.js"
 import EventsIntro from "../components/EventsIntro.mdx"
 
 export default function Events(props) {
@@ -12,11 +13,11 @@ export default function Events(props) {
       <EventsIntro />
       <h2>Upcoming Events</h2>
       {console.dir(props)}
-      <ul>
+      <ul className="event-list">
         {props.events.map((event) =>
           <li key={event.id}>
             <h3>{event.name}</h3>
-            <p>{event.scheduled_start_time} to {event.scheduled_end_time}</p>
+            <DisplayDate start={event.scheduled_start_time} end={event.scheduled_end_time} />
             <p>{event.description}</p>
           </li>
         )}
