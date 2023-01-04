@@ -12,7 +12,6 @@ export default function Events(props) {
     <Layout meta={meta}>
       <EventsIntro />
       <h2 className="event-title">Upcoming Events</h2>
-      {console.dir(props)}
       <ul className="event-list">
         {props.events.map((event) =>
           <li key={event.id}>
