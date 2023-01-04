@@ -2,7 +2,8 @@ import Layout from "../components/Layout.js"
 import DisplayDate from "../components/DisplayEventDate.js"
 import EventsIntro from "../components/EventsIntro.mdx"
 
-export default function Events(props) {
+export default function Events({ events = defaultEvent }) {
+
   const meta = {
     title: "Events",
     description: "Edinburgh Indie Gamers' vibrant event calendar"
@@ -13,7 +14,7 @@ export default function Events(props) {
       <EventsIntro />
       <h2 className="event-title">Upcoming Events</h2>
       <ul className="event-list">
-        {props.events.map((event) =>
+        {events.map((event) =>
           <li key={event.id}>
             <h3>{event.name}</h3>
             <DisplayDate start={event.scheduled_start_time} end={event.scheduled_end_time} />
@@ -37,3 +38,11 @@ export async function getStaticProps(context) {
     }
   }
 }
+
+const defaultEvent = [{
+  "id": "00",
+  "name": "Storygame Hangout",
+  "description": "This is our monthly in-person meetup",
+  "scheduled_start_time": "2023-01-07T18:30:00+00:00",
+  "scheduled_end_time": "2023-01-07T21:30:00+00:00"
+}]
