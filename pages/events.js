@@ -27,13 +27,22 @@ export default function Events({ events }) {
 }
 
 export async function getServerSideProps(context) {
-  const response = await fetch(`${process.env.URL_FUNC}.netlify/functions/fetch-events`)
-  if (!response.ok) console.error("Fetch response status: " + response.status)
-  const data = await response.json()
+  try {
+    const response = await fetch(`https://discord.com/api/v10/guilds/${process.env.DISCORD_GUILD_ID}/scheduled-events`, { // Docs: https://discord.com/developers/docs/resources/guild-scheduled-event#list-scheduled-events-for-guild
+      headers: {
+        'Authorization': `Bot ${process.env.DISCORD_BOT_TOKEN}`,
+        'Content-Type': 'application/json; charset=UTF-8',
+        'User-Agent': 'DiscordBot (https://edinburghindiegamers.com, 1.0.0)'
+      }
+    })
+    const data = await response.json()
 
-  return {
-    props: {
-      events: data.events
+    return {
+      props: {
+        events: data
+      }
     }
+  } catch (e) {
+    console.error(e)
   }
 }
