@@ -1,5 +1,5 @@
-import Layout from "../components/Layout.js"
-import DisplayDate from "../components/DisplayEventDate.js"
+import Layout from "../components/Layout"
+import DisplayDate from "../components/DisplayEventDate"
 import EventsIntro from "../components/EventsIntro.mdx"
 
 export default function Events({ events }) {
