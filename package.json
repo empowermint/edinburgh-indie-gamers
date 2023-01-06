@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "next-dev": "next",
-    "dev": "next && netlify dev",
+    "dev": "next",
+    "netlify": "next && netlify dev",
     "login": "netlify login",
     "link": "netlify link",
     "build": "next build",
@@ -36,7 +37,8 @@
     "next": "^13.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.49.9"
+    "sass": "^1.49.9",
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",

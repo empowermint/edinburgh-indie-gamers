@@ -9,7 +9,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <div id="texture-overlay" rel=""></div>
+        <div id="texture-overlay"></div>
       </body>
     </Html>
   )
