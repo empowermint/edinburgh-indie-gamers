@@ -8,6 +8,7 @@
     "next-dev": "next",
     "dev": "next",
     "netlify": "next && netlify dev",
+    "netlify-build": "netlify build",
     "login": "netlify login",
     "link": "netlify link",
     "build": "next build",
