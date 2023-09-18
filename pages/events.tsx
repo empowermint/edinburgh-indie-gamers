@@ -51,6 +51,9 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
       }
     );
     const data: Array<Event> = await response.json();
+    data.sort((a, b) => {
+      return a.scheduled_start_time > b.scheduled_start_time ? 1 : -1;
+    });
 
     return {
       props: {
