@@ -121,7 +121,8 @@ a:focus {
   background-position: bottom;
 }
 
-footer a {
+footer a,
+.announcement-banner a {
   background: linear-gradient(var(--clr-brand) 0 50%, var(--clr-bg) 50%);
   background-size: auto 3em;
   border-bottom: solid 2px var(--clr-bg);

@@ -4,13 +4,16 @@ import Link from 'next/link';
 
 export default function Layout({ meta, children }) {
   const { title, description } = meta;
-  
+
   return (
     <>
       <Head>
         <title>{title + " | Edinburgh Indie Gamers"}</title>
         <meta name="description" content={description}></meta>
       </Head>
+      <div className="announcement-banner">
+        <p><strong>Alert:</strong> In-person meetings are now at the <a href="https://www.shrubcoop.org/">SHRUB Coop on Bread Street</a></p>
+      </div>
       <header className="header">
         <Link href="./" className="site-title">
           <h3>Edinburgh Indie Gamers</h3>
