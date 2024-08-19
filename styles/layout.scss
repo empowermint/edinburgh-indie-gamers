@@ -24,6 +24,20 @@ main {
   flex-grow: 1;
 }
 
+// ANNOUNCEMENT BANNER
+
+.announcement-banner {
+  width: 100%;
+  padding-inline: var(--pad-large);
+  padding-block: var(--pad-small);
+  background-color: var(--clr-brand);
+  margin-block-end: var(--pad-x-small);
+
+  p {
+    text-align: center;
+  }
+}
+
 // HEADER
 
 header {
